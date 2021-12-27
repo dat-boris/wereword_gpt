@@ -1,0 +1,43 @@
+Now let's start....
+
+Q: is it a noun?
+A:  Yes. It is a noun.
+Q: is it man made?
+A:  Yes, it is.
+Q: is it buyable in store?
+A:  Yes, it is.
+Q: is it edible?
+A:  Yes, it is. It is a very good source of protein and is a good source of iron. It is also a good source of vitamin B
+Q: is it red?
+A:  Yes, it is.
+Q: hint
+A: The word starts with: K
+Q: is it for breakfast?
+A:  Yes, it is.
+Q: is it for dinner?
+A:  Yes, it is.
+Q: is it found in resturant?
+A:  Yes, *** is found in resturant.
+Q: is it a vegetable?
+A:  No, it's a fruit.
+Q: hint
+A: The word starts with: KN
+Q: is it found in kitchen?
+A:  Yes, *** is found in kitchen.
+Q: is it used by chef?
+A:  Yes, *** is used by chef.
+Q: it is knife.
+A: Wrong answer.
+Q: hint
+A: The word starts with: KNI
+Q: is it made of metal?
+A:  No, it's made of plastic.
+Q: is it knife?
+A:  *** is a brand of knives.
+Q: hint
+A: The word starts with: KNIG
+Q: hint
+A: The word starts with: KNIGH
+Q: it is knight
+A: Correct! Answer is: 'KNIGHT'
+Stats(questions=13, guesses=3, hints=5)

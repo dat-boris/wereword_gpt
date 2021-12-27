@@ -32,9 +32,9 @@ from secrets import OPENAI_API_KEY
 
 openai.api_key = OPENAI_API_KEY
 
-QUESTION_REGEX = re.compile(r"^Is it (.*)\??$", flags=re.IGNORECASE)
+QUESTION_REGEX = re.compile(r"^Is it (.*?)\??$", flags=re.IGNORECASE)
 
-GUESS_PHRASE = re.compile(r"^It is (.*)[\.\?]?$", flags=re.IGNORECASE)
+GUESS_PHRASE = re.compile(r"^It is (.*?)[\.\?]?$", flags=re.IGNORECASE)
 
 HINT_PHRASE = re.compile(r"^.*hint.*", flags=re.IGNORECASE)
 
