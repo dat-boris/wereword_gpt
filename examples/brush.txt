@@ -1,0 +1,53 @@
+Now let's start....
+
+Q: is it a noun?
+A:  Yes, it is a noun.
+Q: is it buyable in store?
+A:  Yes, it is.
+Q: is it expensive?
+A:  Yes, it is. It's a bit expensive, but it's worth it.
+Q: is it food?
+A:  Yes, it is. It is a food supplement that is made from the leaves of the plant. It is a natural product that is safe for humans
+Q: is it green?
+A:  Yes, it is. It is a green, natural, organic, and sustainable product.
+Q: is it blue?
+A:  Yes, it is.
+Q: is it organe?
+A:  No, it is not.
+Q: it is tea.
+A: Wrong answer.
+Q: is it healthy?
+A:  Yes, it is. It is a natural product that is made from the leaves of the plant. It is a very good source of vitamins and minerals
+Q: is it over $20 per pound?
+A:  Yes, it is.
+Q: is it serve in restaurant?
+A:  Yes, we serve *** in restaurant.
+Q: is it in salad?
+A:  Yes, it is.
+Q: is it a vegetable?
+A:  No, it is a fruit.
+Q: is it grow in asia?
+A:  Yes, it is grown in asia.
+Q: is it have seed?
+A:  Yes, we have seed.
+Q: is it skin edible?
+A:  Yes, it is.
+Q: is it an apple?
+A:  No, it's a fruit.
+Q: is it an avacado?
+A:  No, it's not an avocado. It's a fruit.
+Q: is it a banana?
+A:  No. It's a fruit.
+Q: hint
+A: The word starts with: B
+Q: hint
+A: The word starts with: BR
+Q: hint
+A: The word starts with: BRU
+Q: hint
+A: The word starts with: BRUS
+Q: is it brush?
+A:  Yes, it is a ***.
+Q: it is brush?
+A: Correct! Answer is: 'BRUSH'
+Stats(questions=19, guesses=1, hints=4)

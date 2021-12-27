@@ -22,6 +22,8 @@ Now let's start....
 import re
 import random
 import logging
+import argparse
+
 from dataclasses import dataclass
 
 import openai
@@ -37,6 +39,14 @@ GUESS_PHRASE = re.compile(r"^It is (.*)[\.\?]?$", flags=re.IGNORECASE)
 HINT_PHRASE = re.compile(r"^.*hint.*", flags=re.IGNORECASE)
 
 DEBUG = False
+
+
+parser = argparse.ArgumentParser(description='Process some integers.')
+parser.add_argument('--davinci', action='store_true',
+                    help='Use davinci bot (slower, but more capable)')
+parser.add_argument('--word',
+                    help='Use specific examples')
+args = parser.parse_args()
 
 
 def pick_random_word() -> str:
@@ -62,7 +72,8 @@ def ask_question(question: str, secret_word: str) -> str:
     ai_prompt = f"Q: Is {secret_word} {question}?\nA:"
     # Example - https://beta.openai.com/examples/default-factual-answering
     response = openai.Completion.create(
-        engine="davinci",
+        # Babbage returns a lot quicker than davinci, the powerful bot
+        engine="davinci" if args.davinci else "babbage",
         prompt=ai_prompt,
         temperature=0,
         max_tokens=30,
@@ -97,7 +108,7 @@ class Stats:
 
 def play_game():
     print(__doc__)
-    secret_word = pick_random_word()
+    secret_word = args.word or pick_random_word()
     stats = Stats()
 
     while True:
