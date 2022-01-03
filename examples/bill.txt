@@ -1,0 +1,33 @@
+Now let's start....
+
+Q: Is it a noun?
+A:  Yes.
+Q: Is it a person?
+A:  No. *** is a computer program.
+Q: Is it a game?
+A:  Yes.
+Q: Is it played by kids?
+A:  No. It's a very adult show.
+Q: Is it on TV?
+A:  Yes, it is.
+Q: Does it have prize money?
+A: I don't understand.  Please ask in format of 'Is it....'
+Q: Is it a game show?
+A:  Yes.
+Q: Is it shown in america?
+A:  Yes, it is shown in America.
+Q: Is it a daytime tv show?
+A:  No, it's a movie.
+Q: hint
+A: The word starts with: B
+Q: hint
+A: The word starts with: BI
+Q: hint
+A: The word starts with: BIL
+Q: Can i play it on game console?
+A: I don't understand.  Please ask in format of 'Is it....'
+Q: is it playable on game console?
+A:  Yes, but it is not recommended.
+Q: hint
+A: Answer is: BILL
+Stats(questions=9, guesses=0, hints=4)
